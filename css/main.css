@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border:none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* navbar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #ccc;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+    padding: 1em;
+}
+ul li:nth-child(1) {
+    padding: 1em;
+    border-bottom: 4px solid #3475cf;
+    color: #2063c0;
+}
+.nav-left {
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.nav-left span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #c79b9b;
+}
+
+
+/* Container */
+.container {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+header {
+    background: url(https://chailaiorchid.com/wp-content/uploads/2019/12/chai-lai-orchid-jungle-bg-scaled.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 10px;
+}
+.btn-header {
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 150px;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(9, 144, 189);
+}
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-box a {
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-box .material-icons {
+    color: #fff;
+}
+/* content */
+.content {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap:10px;
+}
+aside {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.box {
+    border:1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+main {
+    flex:4;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.card {
+    border:1px solid #ccc;
+    border-radius: 7px;
+}
+/* Meet */
+.meet {
+    display: flex;
+    align-items: center;
+}
+.group-meet {
+    display: flex;
+    align-items: center;
+}
+.meet img {
+    width: 30%;
+}
+.btn-link {
+    margin: 1em;
+    background: #fff;
+    border:1px solid #ccc;
+}
+.code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.code span {
+    font-weight: 500;
+    padding: 10px;
+}
+.key  {
+    padding: 10px;
+    font-size: 26px;
+    color: #2063c0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.text-box {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-box span:first-child {
+    color: #8d8a8a;
+}
+.text-box span:last-child {
+    font-size: 15px;
+}
+.all {
+    display: flex;
+    justify-content: flex-end;
+    color: #2063c0;
+    padding: 10px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+.user img {
+    width: 6%;
+    height: 40px;
+    border-radius: 50%;
+}
+.user span {
+    color: #adaaaa;
+}
